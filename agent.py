@@ -41,7 +41,7 @@ class AgentOutput:
 
 # GEMINI CONFIGURATION
 
-API_KEY = "AIzaSyBV3dHAMS83xjEEudW_HaBl49zS4GRTtPo"
+API_KEY = "API KEY HERE"
 genai.configure(api_key=API_KEY)
 
 model = genai.GenerativeModel("gemini-2.0-flash")
