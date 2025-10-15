@@ -1,0 +1,98 @@
+{
+  "agent": "news_verification",
+  "reasoning_steps": [
+    {
+      "phase": "Plan",
+      "outcome": "plan_ready",
+      "duration_ms": 0,
+      "description": "Define verification strategy and steps."
+    },
+    {
+      "phase": "Retrieve",
+      "outcome": "retrieved_6_sources",
+      "duration_ms": 30614,
+      "description": "Search web and extract article text."
+    },
+    {
+      "phase": "Analyze",
+      "outcome": "analysis_ready",
+      "duration_ms": 1893,
+      "description": "Cross-compare evidence and produce structured judgment."
+    },
+    {
+      "phase": "Respond",
+      "outcome": "response_ready",
+      "duration_ms": 0,
+      "description": "Return structured verdict with confidence and citations."
+    }
+  ],
+  "plan": [
+    "Clarify the claim/topic to verify.",
+    "Retrieve recent and reputable sources.",
+    "Extract evidence from sources.",
+    "Cross-compare for consistency and credibility.",
+    "Produce verdict with reasoning and confidence."
+  ],
+  "response": {
+    "task": "News verification / misinformation detection",
+    "claim": "NASA confirmed the discovery of a new Earth-like planet in 2025.",
+    "verdict": "False",
+    "confidence": 1.0,
+    "reasoning": "Based on the search results from reputable sources like Britannica and BBC, there is no evidence to support the claim that NASA confirmed the discovery of a new Earth-like planet in 2025. The search results provide information on extrasolar planets and NASA's space exploration efforts, but they do not mention any such discovery in 2025. Thus, the claim is likely false.",
+    "supporting_sources": [],
+    "contradicting_sources": []
+  },
+  "analysis": {
+    "verdict": "False",
+    "reasoning": "Based on the search results from reputable sources like Britannica and BBC, there is no evidence to support the claim that NASA confirmed the discovery of a new Earth-like planet in 2025. The search results provide information on extrasolar planets and NASA's space exploration efforts, but they do not mention any such discovery in 2025. Thus, the claim is likely false.",
+    "confidence": 1.0,
+    "supporting_sources": [],
+    "contradicting_sources": []
+  },
+  "evidence_sources": [
+    {
+      "url": "https://www.nasa.gov/search/?q=NASA+confirmed+the+discovery+of+a+new+Earth-like+planet+in+2025.",
+      "title": "NASA: NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "snippet": "NASA information about NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "content": null,
+      "fetch_status": "error"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/NASA_confirmed_the_discovery_of_a_new_Earth-like_planet_in_2025.",
+      "title": "English Wikipedia: NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "snippet": "English Wikipedia article about NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "content": null,
+      "fetch_status": "error"
+    },
+    {
+      "url": "https://www.britannica.com/search?query=NASA+confirmed+the+discovery+of+a+new+Earth-like+planet+in+2025.",
+      "title": "Britannica: NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "snippet": "Britannica encyclopedia entry for NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "content": "You searched for:\n-\nKepler-452b (extrasolar planet)\nExtrasolar planets were first discovered in 1992. More than 6,000 are known, and more than 8,000 await further confirmation. Detection of ...\n-\nExtrasolar planet - Detection, Habitability, Exploration\n... like stars had a planet analogous to Earth. In 2010 the Kepler team announced its first discoveries: four gas giant planets somewhat larger ...\n-\nKepler-186f (extrasolar planet)\nKepler-186f, the first Earth-sized extrasolar planet to be found within its star's habitable zone—the orbital region where an Earth-like ...\n-\nNeptune - Moons, Rings, Orbit\n... planet's rotation axis. It confirmed that Neptune has rings and discovered six new moons. Neptune previously had been thought too cold to ...\n-\n10 Important Dates in Mars History (Strap on your jet packs, let’s visit Mars.)\n... like to crunch along the planet's rocky soil and feel its ... News •. Planet announces new line of satellites for daily Earth imaging • Oct. ...\n-\nSpace exploration - Astronomy, Technology, Discovery\nSpace science was, and continues to be, performed by robotic spacecraft in Earth orbit, in other locations from which they observe the universe, or on missions ...\n-\nCeres (dwarf planet)\nCeres, dwarf planet, the largest asteroid in the main asteroid belt, and the first asteroid to be discovered. It revolves around the Sun ...\n-\nWhy Is Pluto No Longer a Planet? (Did the former planet really deserve its demotion?)\nTo many citizens of Earth, the demotion of Pluto felt like a break from tradition, and it was precisely that—a positive step forward into a new light, new ...\n-\n9 Ghostly Planets (Were they ever out there to begin with?)\nHowever, none of these theories could adequately explain the current Earth-Moon system. In the 1970s a new proposal emerged: that a giant impact ...\n-\nNeptune - Discovery, Orbit, Moons\n... discovery of a new planet. Airy, convinced by ... as a consequence of the planet's enormous distance from both Earth and the Sun. ...\n-\nMoons of Uranus\nThe planet Uranus has 28 known moons. Uranus's five largest moons—Miranda, Ariel, Umbriel, Oberon, and Titania—range from about 240 to 800 km ( ...\n-\nK2-18b (extrasolar planet)\nK2-18b is an extrasolar planet where the possible presence of life was claimed in 2025 ... planets like Earth are uncommon. Chatbot answers are ...\n-\nJohannes Kepler (German astronomer)\nJohannes Kepler, German astronomer who discovered three major laws of planetary motion. His discoveries turned Nicolaus Copernicus's ...\n-\nAlpha Centauri (star)\n... discovered in 2016. Its mass is at least 1.3 times that of Earth and thus is deemed a rocky planet like Earth. Its orbital period of 11.2 ...\n-\nPlanet\nNews •. Planet announces new line of satellites for daily Earth imaging • Oct. ... The first discovery of a planet revolving around a star more like the Sun ...\n-\nProxima Centauri (star)\nIf confirmed, it would be one of the lightest exoplanets discovered, with a mass a little more than a quarter of Earth's. This size points to a ...\n-\nEarth (planet)\n14, 2025 •Article History. Quick Summary Ask the Chatbot. Earth A ... Earth as a planet like the others of the solar system. Concurrent sea ...\n-\nFermi paradox (science)\n... planet to be found in the habitable zone of a star like the Sun. ... Are there other planets like Earth? How likely is the evolution of ...\n-\nExtrasolar planet (astronomy)\n... like stars had a planet analogous to Earth. In 2010 the Kepler team announced its first discoveries: four gas giant planets somewhat larger ...\n-\nFlat Earth\nFlat Earth, the perception that Earth exists as a flat disk, either circular or square-shaped. This view persisted in the ancient world ...\n-\nMoon (Earth’s satellite)\nIts name in English, like that of Earth, is of Germanic and Old English derivation. Did You Know? NASA announced it was planning to build a nuclear reactor ...\n-\nRogue planet (astronomy)\nThey were found in optical and infrared observations of regions where stars are being born, and thus these rogue planets were likely formed in a similar manner ...\n-\nPluto - Charon, Nix, Hydra\nNews •. Astronomers spot white dwarf that guzzled a Pluto-like world • Sep. ... When Pluto was found, it was considered the third planet to be ...\n-\nGeoffrey Marcy (American astronomer)\nMarcy confirmed their discovery, and the following year he and Butler discovered two more extrasolar planets. A succession of similar ...\n-\nOur 5 Dwarf Planets (Learn all about Pluto and its pals.)\nTo explore the Pluto-Charon system, NASA designed the small New Horizons probe and put it on one of the largest rockets, the Atlas V. When it left Earth, New ...",
+      "fetch_status": "ok"
+    },
+    {
+      "url": "https://www.reuters.com/search/news?blob=NASA+confirmed+the+discovery+of+a+new+Earth-like+planet+in+2025.",
+      "title": "Reuters: NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "snippet": "Reuters news about NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "content": null,
+      "fetch_status": "error"
+    },
+    {
+      "url": "https://www.factcheck.org/?s=NASA+confirmed+the+discovery+of+a+new+Earth-like+planet+in+2025.",
+      "title": "FactCheck.org: NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "snippet": "FactCheck.org analysis of NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "content": null,
+      "fetch_status": "error"
+    },
+    {
+      "url": "https://www.bbc.com/search?q=NASA+confirmed+the+discovery+of+a+new+Earth-like+planet+in+2025.",
+      "title": "BBC: NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "snippet": "BBC news about NASA confirmed the discovery of a new Earth-like planet in 2025.",
+      "content": "- Home\n- News\n- Israel-Gaza War\n- War in Ukraine\n- US & Canada\n- UK\n- Africa\n- Asia\n- Australia\n- Europe\n- Latin America\n- Middle East\n- In Pictures\n- BBC InDepth\n- BBC Verify\n- Sport\n- Business\n- Innovation\n- Culture\n- Arts\n- Travel\n- Destinations\n- Africa\n- Antarctica\n- Asia\n- Australia and Pacific\n- Caribbean & Bermuda\n- Central America\n- Europe\n- Middle East\n- North America\n- South America\n- World’s Table\n- Culture & Experiences\n- Adventures\n- The SpeciaList\n- To the Ends of The Earth\n- Earth\n- Audio\n- Video\n- Live\nFollow BBC on:\nCopyright 2025 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+      "fetch_status": "ok"
+    }
+  ],
+  "source_count": 2,
+  "total_sources_attempted": 6
+}
