@@ -46,7 +46,7 @@ The agent prioritizes English-language sources in this order:
 
 **Language Filtering**: Automatically excludes non-English domains (.cn, .ru, .in, .de, .fr, .es, .it, .jp, .kr, .br) and non-English Wikipedia versions.
 
-### Security Warning
+### ⚠️ Security Warning
 **This project contains a hardcoded API key for demonstration purposes only.**
 - The Gemini API key is hardcoded in `agent.py` (line 43: `API_KEY = "..."`)
 - **DO NOT use this in production** - it's insecure and violates security best practices
@@ -59,7 +59,7 @@ The agent prioritizes English-language sources in this order:
 ```bash
 pip install -r requirements.txt
 ```
-3. ** API Key Configuration**:
+3. **⚠️ API Key Configuration**:
    - **WARNING**: The current code uses a **hardcoded API key** in `agent.py` (variable `API_KEY`). 
    - For local testing it will work as-is, but this is **insecure for production use**.
    - **Recommended**: Replace with `os.environ["GEMINI_API_KEY"]` or use a secure secret manager.
